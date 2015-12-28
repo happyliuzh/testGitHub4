@@ -1,0 +1,25 @@
+{
+  "name": "testGitHub4",
+  "version": "0.1.0",
+  "summary": "A short description of testGitHub4.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/testGitHub4",
+  "license": "MIT",
+  "authors": {
+    "liuzhihui": "liuzhihui@postop.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/testGitHub4.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "testGitHub4": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

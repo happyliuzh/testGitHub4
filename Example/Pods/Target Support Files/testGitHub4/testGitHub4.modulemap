@@ -1,0 +1,6 @@
+framework module testGitHub4 {
+  umbrella header "testGitHub4-umbrella.h"
+
+  export *
+  module * { export * }
+}

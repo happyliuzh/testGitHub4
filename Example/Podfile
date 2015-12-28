@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'testGitHub4_Example', :exclusive => true do
+  pod "testGitHub4", :path => "../"
+end
+
+target 'testGitHub4_Tests', :exclusive => true do
+  pod "testGitHub4", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
